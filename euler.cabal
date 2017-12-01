@@ -1,0 +1,17 @@
+
+name:                ygunayer-euler
+version:             0.1.0.0
+license:             MIT
+license-file:        LICENSE
+author:              Yalin Gunayer
+maintainer:          yalin.gunayer@gmail.com
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+executable euler
+  main-is:             Main.hs
+  build-depends:       base, clock, formatting, containers
+  hs-source-dirs:      src
+  ghc-options:         -Wall -O2
+  default-language:    Haskell2010
