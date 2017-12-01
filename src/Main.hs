@@ -6,12 +6,16 @@ module Main where
 import qualified Data.Map as Map
 import Common
 import Solutions.Problem001
+import Solutions.Problem002
+import Solutions.Problem003
 import System.Environment (getArgs)
 import System.Exit (exitSuccess)
 
 solutions :: Map.Map Integer Integer
 solutions = Map.fromList [
-    (1, solution001)]
+    (1, solution001),
+    (2, solution002),
+    (3, solution003)]
 
 solve :: Integer -> Maybe Integer
 solve x = Map.lookup x solutions

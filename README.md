@@ -8,12 +8,17 @@ The project structure is largely based on [guillaume-nargeot/project-euler-haske
 ### Initialize the Project
 Use Cabal to install dependencies
 ```bash
-$ cabal install
+$ cabal install --enable-tests
 ```
 
 ### Run a Specific Solution
 ```bash
 $ cabal run 1
+```
+
+### Run Tests
+```bash
+$ cabal test
 ```
 
 ## Build an Executable
